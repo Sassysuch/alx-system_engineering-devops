@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(find . -type d -print | grep -E '^\.\/\..+' | wc -l)
+find . -type d -path './*' -print | wc -|
